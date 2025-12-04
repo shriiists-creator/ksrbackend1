@@ -21,12 +21,12 @@ app.listen(PORT, () => {
 
 
 // ✅ Allow requests from your frontend (GitHub Pages)
-// app.use(cors({
-//   origin: "https://shriiitrackingsolutions.github.io", // Allow only your frontend
-//   methods: "GET,POST", // Allow necessary methods
-//   allowedHeaders: "Content-Type"
-// }));
-// app.use(cors())
+app.use(cors({
+  origin: "http://127.0.0.1:3000/", // Allow only your frontend
+  methods: "GET,POST", // Allow necessary methods
+  allowedHeaders: "Content-Type"
+}));
+app.use(cors())
 
 // ✅ If using a wildcard (allow any origin) - use this instead:
 // app.use(cors());

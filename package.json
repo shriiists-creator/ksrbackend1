@@ -1,0 +1,22 @@
+{
+  "name": "practice_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@getbrevo/brevo": "^3.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "json2xls": "^0.1.2",
+    "moment-timezone": "^0.5.48",
+    "mongoose": "^8.13.2"
+  }
+}

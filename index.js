@@ -12,6 +12,7 @@ const app = express();
 // This should be one of the first middleware.
 const allowedOrigins = [
   "http://127.0.0.1:3000", // Your local frontend
+  "http://127.0.0.1:5501", // Your local frontend
   "http://localhost:3000", // Another common local address
   // Add your deployed frontend URL here if you have one
   // e.g., "https://your-frontend.vercel.app"
